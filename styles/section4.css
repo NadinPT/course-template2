@@ -1,0 +1,27 @@
+.our-works {
+    height: 100vh;
+    background:  linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;;
+}
+
+.our-works-title {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-works-title h2,
+.our-works-title-button {
+    flex: 1;
+}
+
+.our-works-title-button {
+    text-align: right;
+}
+
+.our-works-item {
+    width: 31%;
+    border: 2px solid red;
+}
+
+.our-works-item img {
+    width: 100%;
+}
