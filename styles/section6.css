@@ -1,22 +1,27 @@
 
 .span-section {
     text-align: center;
+    height: 100vh;
 }
 .subscribe-block .primary-button {
     border-radius: 0 30px 30px 0;
-    height: 45px;
+    height: 47px;
     flex: 1;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 }
 .subscribe-block input {
     border: 1px solid #F2F2F2;
-    box-sizing: border-box;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px 0 0 30px;
-    padding: 0;
+    padding: 0 0 0 30px;
     flex: 2;
-}
+    height: 45px;
+    width: 289px;
+    text-align: left;
+  }
 .subscribe-block {
     justify-content: center;
     width: 490px;
-    margin: 0;
+    margin: 30px auto;
+    display: flex;
 }
