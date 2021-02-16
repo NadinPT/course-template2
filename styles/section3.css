@@ -47,6 +47,7 @@
 .standards-icon-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 10%;
     padding-right: 100px;
     padding-bottom: 70px;
