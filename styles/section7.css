@@ -1,0 +1,74 @@
+.basic-information-block {
+    background-color: #F6F6F8;
+}
+
+.list-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.contact-list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    margin-left: -18px;
+}
+
+ul.contact-list1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    list-style-image: url(../assets/img/Vector.svg);
+    margin-left: -25px;
+}
+
+.contact-list li {
+    margin: 15px 0;
+}
+
+.contact-list1 li {
+    margin: 15px 0;
+}
+
+.fotter-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-list li:nth-child(1) {
+    list-style-image: url(../assets/img/envelope.svg);
+}
+
+.contact-list li:nth-child(2) {
+    list-style-image: url(../assets/img/call.svg);
+}
+
+.contact-list li:nth-child(3) {
+    list-style-image: url(../assets/img/placeholder.svg);
+}
+
+.registration {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
