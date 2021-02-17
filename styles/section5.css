@@ -11,6 +11,19 @@
     flex-direction: row;
     justify-content: center;
 
+
+}
+
+@media (max-width:900px){
+    .our-projekts-foto{
+        flex-direction:column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+        
+
+
 }
 .foto3{
 width: 255px;

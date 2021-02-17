@@ -24,9 +24,16 @@
 .our-works-title-button {
     text-align: right;
 }
+.section4_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
 
 .our-works-item {
-    width: 33%;
+    width: 26%;
     /* border: 2px solid red; */
     padding: 0 15px;
     border-bottom: 1px solid #E0E0E0;
@@ -54,9 +61,9 @@
 
 @media (max-width:900px) {
     .our-works-item {
-        width: 47%;
+        width: 26%;
     }
-    .flex-row {
+    .section4_items {
         flex-wrap: wrap;
     }
 }
