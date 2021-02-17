@@ -1,20 +1,92 @@
 .span-section {
     text-align: center;
-    height: 100vh;
+    height: 1080px;
+    background-image: url(../assets/img/sectionBackground.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.section6_title_container{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section6_title{
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 30px;
 }
 
-.player-picture {
-    background: url(../assets/img/Rectangle.png)85% #E5E5E5 15%;
+.section6_subtitle{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #999999;
 }
 
-.subscribe-block .primary-button {
-    border-radius: 0 30px 30px 0;
+.section6_player_container{
+    border-bottom: 1px solid #E0E0E0;
+    background-image: url(../assets/img/player_background.png);
+    height: 430px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 85px;
+}
+
+.section6_player_button{
+    height: 100px;
+    width: 300px;
+    border-radius: 200px;
+    border:1px solid #FFFFFF;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.section6_player6_play{
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/img/play-button.svg);
+    margin-left: 40px;
+}
+.section6_player6_text{
+  margin-left: 21px;
+}
+
+.section6_form_container{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+
+.section6_form_spam-text{
+    color:#999999;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.section6_form_button_follow {
+    border-radius: 0 30px 30px 0  ;
     height: 47px;
     flex: 1;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 }
 
-.subscribe-block input {
+.section6_form_conntrolls-container {
+    justify-content: center;
+    width: 490px;
+    margin: 30px auto;
+    display: flex;
+}
+.section6_form_input_follow {
     border: 1px solid #F2F2F2;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px 0 0 30px;
@@ -25,30 +97,5 @@
     text-align: left;
 }
 
-.subscribe-block {
-    justify-content: center;
-    width: 490px;
-    margin: 30px auto;
-    display: flex;
-}
 
-.player-button {
-    width: 300px;
-    height: 100px;
-    border-radius: 200px;
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-}
 
-.push-button {
-    padding: 20px 200px 20px 40px;
-}
-
-.player-container {
-    border-bottom: 1px solid #E0E0E0;
-}
-
-.subscription-player-block {
-    margin-top: 85px;
-    margin-bottom: 85px;
-}
