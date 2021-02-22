@@ -1,75 +1,88 @@
 .blue-background {
-    background: linear-gradient(to bottom, #504dc2 0%, #5f12d0 50%, #fff 50%);
+  background: linear-gradient(to bottom, #504dc2 0%, #5f12d0 50%, #fff 50%);
+}
+@media (max-width: 600px) {
+  .blue-background {
+    background: linear-gradient(to bottom, #504dc2 0%, #5f12d0 30%, #fff 50%);
+  }
 }
 
 .half-section {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .our-works {
-    background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
 }
 
 .our-works-title {
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
 }
 
+@media (max-width: 600px) {
+  .our-works-title {
+    padding-top: 20px;
+  }
+}
 .our-works-title h2,
 .our-works-title-button {
-    flex: 1;
+  flex: 1;
 }
 
 .our-works-title-button {
-    text-align: right;
+  text-align: right;
 }
-.section4_items{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+.section4_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 
 .our-works-item {
-    width: 26%;
-    /* border: 2px solid red; */
-    padding: 0 15px;
-    border-bottom: 1px solid #E0E0E0;
-    padding-bottom: 85px;
-    margin-top: 70px;
-    margin-bottom: 85px;
+  width: 26%;
+  /* border: 2px solid red; */
+  padding: 0 15px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 85px;
+  margin-top: 70px;
+  margin-bottom: 85px;
 }
 
 .our-works-item img {
-    width: 100%;
+  width: 100%;
 }
 
 .white-color-title {
-    color: white;
+  color: white;
 }
 
 .our-works-item-content {
-    line-height: 1.56;
-    color: #999999;
+  line-height: 1.56;
+  color: #999999;
 }
 
 .blue-text-item {
-    color: #4985FF;
+  color: #4985ff;
 }
 
-@media (max-width:900px) {
-    .our-works-item {
-        width: 26%;
-    }
-    .section4_items {
-        flex-wrap: wrap;
-    }
+@media (max-width: 900px) {
+  .our-works-item {
+    width: 26%;
+  }
+  .section4_items {
+    flex-wrap: wrap;
+  }
 }
 
-@media(max-width:900px) {
-    .our-works-item-content {
-        font-size: 14px;
-    }
+@media (max-width: 900px) {
+  .our-works-item-content {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .our-works-item-content {
+    font-size: 12px;
+  }
 }
